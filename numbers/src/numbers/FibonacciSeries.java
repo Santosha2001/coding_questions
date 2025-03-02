@@ -13,6 +13,17 @@ public class FibonacciSeries {
             firstNumber = secondNumber;
             secondNumber = nextNumber;
         }
+
+        /*
+        int i = 0;
+        while (i < number) {
+            System.out.print(firstNumber + " ");
+            nextNumber = firstNumber + secondNumber;
+            firstNumber = secondNumber;
+            secondNumber = nextNumber;
+            i++;
+        }
+        */
     }
 
     public static void main(String[] args) {
