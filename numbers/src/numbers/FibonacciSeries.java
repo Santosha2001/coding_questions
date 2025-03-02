@@ -7,17 +7,6 @@ public class FibonacciSeries {
         int secondNumber = 1;
         int nextNumber;
 
-        /*
-        int i = 0;
-        while (i < number) {
-            System.out.print(firstNumber + " ");
-            nextNumber = firstNumber + secondNumber;
-            firstNumber = secondNumber;
-            secondNumber = nextNumber;
-            i++;
-        }
-         */
-
         for (int i = 0; i < number; i++) {
             System.out.print(firstNumber + " ");
             nextNumber = firstNumber + secondNumber;
