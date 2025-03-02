@@ -1,6 +1,7 @@
 package numbers;
 
 public class CountOfDigitsInNumber {
+
     public static int digitCount(int number) {
         int count = 0;
         if (number == 0) return 1;
